@@ -1,0 +1,15 @@
+---
+version: "3"
+
+includes:
+  ansible: .taskfiles/ansible.yml
+  format: .taskfiles/format.yml
+  lint: .taskfiles/lint.yml
+  pre-commit: .taskfiles/pre-commit.yml
+
+tasks:
+  check:
+    cmds:
+      - task format:all
+      - task lint:all
+      - task pre-commit:run

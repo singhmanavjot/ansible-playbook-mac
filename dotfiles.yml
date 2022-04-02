@@ -1,0 +1,9 @@
+---
+- hosts: local
+  connection: local
+
+  roles:
+    - role: elliotweiser.osx-command-line-tools
+    - role: geerlingguy.mac.homebrew
+    - role: geerlingguy.mac.mas
+    # - role: geerlingguy.mac.dock # https://github.com/kcrawford/dockutil/issues/127

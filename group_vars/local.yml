@@ -1,0 +1,110 @@
+---
+homebrew_installed_packages:
+  - ansible
+  - ansible-lint
+  - age
+  - go
+  - go-task
+  - lsd
+  - ncdu
+  - pre-commit
+  - starship
+  - yamllint
+  - zsh
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+  - prettier
+  - markdownlint-cli
+  - mas
+
+homebrew_cask_apps:
+  - authy
+  - firefox
+  - iterm2
+  - signal
+  - bitwarden
+  - discord
+  - obsidian
+  - visual-studio-code
+  - font-hack-nerd-font
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+mas_uninstalled_apps:
+  - { id: 408981434, name: "iMovie" }
+  - { id: 682658836, name: "GarageBand" }
+
+mas_installed_apps:
+  - { id: 1319778037, name: "iStat Menus" }
+  - { id: 1136220934, name: "Infuse" }
+
+dockitems_remove:
+  - Launchpad
+  - Safari
+  - Mail
+  - Photos
+  - FaceTime
+  - Contacts
+  - TV
+  - News
+  - Keynote
+  - Numbers
+  - Pages
+
+dockitems_persist:
+  - name: Firefox
+    path: "/Applications/Firefox.app/"
+    pos: 1
+  - name: Discord
+    path: "/Applications/Discord.app/"
+    pos: 2
+  - name: Signal
+    path: "/Applications/Signal.app/"
+    pos: 3
+  - name: Messages
+    path: "/Applications/Messages.app/"
+    pos: 4
+  - name: iTerm
+    path: "/Applications/iTerm.app/"
+    pos: 5
+  - name: Visual Studio Code
+    path: "/Applications/Visual Studio Code.app/"
+    pos: 6
+  - name: Obsidian
+    path: "/Applications/Obsidian.app/"
+    pos: 7
+  - name: Calender
+    path: "/Applications/Calender.app/"
+    pos: 8
+  - name: Reminders
+    path: "/Applications/Reminders.app/"
+    pos: 9
+  - name: Notes
+    path: "/Applications/Notes.app/"
+    pos: 10
+  - name: Maps
+    path: "/Applications/Maps.app/"
+    pos: 11
+  - name: Infuse
+    path: "/Applications/Infuse.app/"
+    pos: 12
+  - name: Music
+    path: "/Applications/Music.app/"
+    pos: 13
+  - name: Podcasts
+    path: "/Applications/Podcasts.app/"
+    pos: 14
+  - name: Bitwarden
+    path: "/Applications/Bitwarden.app/"
+    pos: 15
+  - name: Authy Desktop
+    path: "/Applications/Authy Desktop.app/"
+    pos: 16
+  - name: App Store
+    path: "/Applications/App Store.app/"
+    pos: 17
+  - name: System Preferences
+    path: "/Applications/System Preferences.app/"
+    pos: 18

@@ -1,0 +1,18 @@
+---
+version: "3"
+
+tasks:
+  deps:
+    desc: Upgrade Ansible galaxy deps
+    cmds:
+      - ansible-galaxy install -r requirements.yml --force
+
+  list:
+    desc: List all the hosts
+    cmds:
+      - ansible all -i hosts --list-hosts
+
+  playbook:dotfiles:
+    desc: Configure local Mac system
+    cmds:
+      - ansible-playbook -i hosts -K dotfiles.yml
