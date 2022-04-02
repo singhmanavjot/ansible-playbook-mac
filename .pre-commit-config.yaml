@@ -28,3 +28,8 @@ repos:
     rev: v8.5.1
     hooks:
       - id: gitleaks
+  - repo: https://github.com/compilerla/conventional-pre-commit
+    rev: v1.2.0
+    hooks:
+      - id: conventional-pre-commit
+        stages: [commit-msg]
