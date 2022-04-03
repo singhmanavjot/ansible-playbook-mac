@@ -1,0 +1,10 @@
+{
+  "editor.fontFamily": "Hack Nerd Font Mono",
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "explorer.confirmDragAndDrop": false
+}

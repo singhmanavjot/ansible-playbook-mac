@@ -1,0 +1,26 @@
+---
+- name: Gather vscode extensions.
+  ansible.builtin.command: code --list-extensions
+  become_user: "{{ user }}"
+  register: vscode_extensions
+  changed_when: false
+
+- name: Install vscode extensions.
+  ansible.builtin.command: code --install-extension {{ item }} --force
+  become_user: "{{ user }}"
+  when: item not in vscode_extensions.stdout_lines
+  loop: "{{ vscode_extentions }}"
+
+- name: Remove not defined vscode extensions.
+  ansible.builtin.command: code --uninstall-extension {{ item }}
+  become_user: "{{ user }}"
+  when: vscode_manage_extentions and item not in vscode_extentions
+  loop: "{{ vscode_extensions.stdout_lines }}"
+
+- name: Create or update settings file for vscode.
+  ansible.builtin.copy:
+    src: vscode/settings.json
+    dest: "{{ home }}/Library/Application Support/Code/User/settings.json"
+    owner: "{{ user }}"
+    group: staff
+    mode: 0644

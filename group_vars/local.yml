@@ -1,4 +1,6 @@
 ---
+user: manav
+
 homebrew_installed_packages:
   - ansible
   - ansible-lint
@@ -108,3 +110,20 @@ dockitems_persist:
   - name: System Preferences
     path: "/Applications/System Preferences.app/"
     pos: 18
+
+vscode_manage_extentions: true
+vscode_extentions:
+  - DavidAnson.vscode-markdownlint
+  - EditorConfig.EditorConfig
+  - icrawl.discord-vscode
+  - mikestead.dotenv
+  - ms-python.python
+  - ms-python.vscode-pylance
+  - ms-toolsai.jupyter
+  - ms-toolsai.jupyter-keymap
+  - ms-toolsai.jupyter-renderers
+  - PKief.material-icon-theme
+  - redhat.ansible
+  - redhat.vscode-yaml
+  - shardulm94.trailing-spaces
+  - zhuangtongfa.material-theme

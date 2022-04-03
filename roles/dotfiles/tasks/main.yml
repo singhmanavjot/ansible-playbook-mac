@@ -1,0 +1,6 @@
+---
+- name: Create or update zsh config.
+  ansible.builtin.include_tasks: zsh.yml
+
+- name: Create or update vscode config.
+  ansible.builtin.include_tasks: vscode.yml

@@ -1,0 +1,5 @@
+---
+user: user
+home: /Users/{{ user }}
+vscode_manage_extentions: false
+vscode_extentions: []

@@ -1,0 +1,8 @@
+---
+- name: Create or update config file for zsh.
+  ansible.builtin.copy:
+    src: zsh/zshrc
+    dest: "{{ home }}/.zshrc"
+    owner: "{{ user }}"
+    group: staff
+    mode: 0644
