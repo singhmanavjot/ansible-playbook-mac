@@ -5,6 +5,7 @@ tasks:
   all:
     - task: markdown
     - task: yaml
+    - task: ansible
     - task: format
 
   markdown:
