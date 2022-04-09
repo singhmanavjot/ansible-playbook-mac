@@ -24,6 +24,7 @@ tasks:
     desc: Lint ansible
     cmds:
       - ansible-lint -c '.github/linters/.ansible-lint' .
+    ignore_errors: true
 
   format:
     desc: Lint general formatting
