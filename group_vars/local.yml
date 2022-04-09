@@ -29,6 +29,7 @@ homebrew_cask_apps:
   - obsidian
   - visual-studio-code
   - font-hack-nerd-font
+  - balenaetcher
 
 homebrew_taps:
   - homebrew/core
