@@ -42,6 +42,7 @@ mas_uninstalled_apps:
 mas_installed_apps:
   - { id: 1319778037, name: "iStat Menus" }
   - { id: 1136220934, name: "Infuse" }
+  - { id: 1475387142, name: "Tailscale" }
 
 dockitems_remove:
   - Launchpad
