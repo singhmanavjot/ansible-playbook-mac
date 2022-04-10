@@ -18,6 +18,7 @@ homebrew_installed_packages:
   - prettier
   - markdownlint-cli
   - mas
+  - sops
 
 homebrew_cask_apps:
   - authy
