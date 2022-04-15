@@ -19,6 +19,7 @@ homebrew_installed_packages:
   - markdownlint-cli
   - mas
   - sops
+  - packer
 
 homebrew_cask_apps:
   - authy
