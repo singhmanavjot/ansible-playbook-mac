@@ -24,6 +24,9 @@ homebrew_installed_packages:
   - kubectl
   - clusterctl
   - flux
+  - helm
+  - ipcalc
+  - jq
 
 homebrew_cask_apps:
   - authy
