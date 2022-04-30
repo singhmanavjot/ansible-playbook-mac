@@ -23,6 +23,7 @@ homebrew_installed_packages:
   - terraform
   - kubectl
   - clusterctl
+  - flux
 
 homebrew_cask_apps:
   - authy
@@ -39,6 +40,7 @@ homebrew_cask_apps:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - fluxcd/tap
 
 mas_uninstalled_apps:
   - { id: 408981434, name: "iMovie" }
