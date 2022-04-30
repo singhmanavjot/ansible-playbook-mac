@@ -21,6 +21,8 @@ homebrew_installed_packages:
   - sops
   - packer
   - terraform
+  - kubectl
+  - clusterctl
 
 homebrew_cask_apps:
   - authy
