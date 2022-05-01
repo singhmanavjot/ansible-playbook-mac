@@ -28,6 +28,7 @@ homebrew_installed_packages:
   - ipcalc
   - jq
   - direnv
+  - watch
 
 homebrew_cask_apps:
   - authy
